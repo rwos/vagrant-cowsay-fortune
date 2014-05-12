@@ -12,7 +12,8 @@ module VagrantPlugins
       class Plugin < Vagrant.plugin("2")
         name "vagrant-cowsay-fortune"
         description "Cowsay + Fortune"
-        'fortune'.works? and 'cowsay'.works? and system('fortune -a | cowsay')
+        puts "hello"
+        #'fortune'.works? and 'cowsay'.works? and system('fortune -a | cowsay')
       end
     end
   end
