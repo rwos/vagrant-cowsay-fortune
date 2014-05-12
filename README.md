@@ -7,7 +7,7 @@ while you wait.
 
 You'll need `fortune` and `cowsay`. Then, do:
 
-    $ gem install vagrant-cowsay-fortune
+    $ vagrant plugin install vagrant-cowsay-fortune
 
 ## License
 
